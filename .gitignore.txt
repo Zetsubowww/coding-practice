@@ -1,0 +1,11 @@
+# Ignore build files
+*.exe
+*.obj
+*.ilk
+*.pdb
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore other temp files
+*.log
