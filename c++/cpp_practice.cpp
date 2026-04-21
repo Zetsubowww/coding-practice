@@ -285,24 +285,35 @@ int main(){
     cout<<"The decimal equivalent of "<<input<<" is: "<<convertedNum;
     */
 
-    //SELF TEST 6: Longest Common Prefix ("Flower","Flow","Flight")
-    string strs[] = {"Flower","Flow","Flight"};
+    /*
+    //SELF TEST 6: Longest Common Prefix ("flower","flow","flight")
+    string strs[] = {"dog","racecar","car"};
     string cpf, temp;
-    int n = 0;
+    int strsLen = sizeof(strs) / sizeof(strs[0]);
 
-    for(int i = 1; i < strs->length(); i++){
-        for(int j = 0; j < strs[i].length(); j++){
-            if(strs[0][j] == strs[i][j]){
-                temp[n] == strs[0][j];
+    for(int i = 1; i < strsLen; i++){
+        for(int j = 0; j < strs[0].length(); j++){
+            if(j == strs[i].length()){
+                break;
             }
             else{
-                continue;
-            }
+                if(strs[0][j] == strs[i][j]){
+                    temp += strs[0][j];
+                }
+                else{
+                    continue;
+                }
+            } 
         }
         cpf = temp;
+        temp = "";
     }
 
-    cout<<"The common prefix of these words are: ";
-    
+    if(cpf == ""){
+        cout<<"There is no common prefix between the words.";
+    }
+    else cout<<"The commnon prefix is: "<<cpf;
+    */
+
     return 0;
 }
