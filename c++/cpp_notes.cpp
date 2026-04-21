@@ -8,6 +8,20 @@ void change(int* p){
     *p = 100;
 }
 
+//FOR RECURSION TEST
+int sum(int k){
+    if(k > 0){
+        cout << "Going down: " << k << "\n";
+        int result = k + sum(k - 1);
+        cout << "Going up: " << k << " -> " << result << "\n";
+        return result;
+    }
+    else{
+        cout<<"Done\n";
+        return 0;
+    }
+}
+
 int main(){
     //POINTER ARITHMETIC & POINTERS AND ARRAYS
     int arr[] = {10, 20, 30};
@@ -42,5 +56,12 @@ int main(){
     int pbp = 5; //pbp starts as 5
     change(&pbp);
 
-    cout<<pbp<<"\n"; //through modifying pointer value pbp -> 100
+    cout<<pbp<<"\n\n"; //through modifying pointer value pbp -> 100
+
+    //RECURSION TEST
+    cout<<"RECURSION===========================================\n";
+
+    int recursion = sum(10);
+    cout<<recursion<<"\n";
+    return 0;
 }
