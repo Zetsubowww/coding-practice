@@ -12,13 +12,13 @@ void change(int* p){
 int sum(int k){
     if(k > 0){
         cout << "Going down: " << k << "\n";
-        int result = k + sum(k - 1); //ONE: For every call of sum(x) it waits for sum(y..) to complete
-        cout << "Going up: " << k << " -> " << result << "\n"; //THREE: From sum(0) adds the values of k in sum(..x)
+        int result = k + sum(k - 1); //ONE: For every call of sum(x) it WAITS for sum(y..) to complete
+        cout << "Going up: " << k << " -> " << result << "\n"; //THREE: From sum(0) adds the values of k in sum(1..10)
         return result;
     }
     else{
         cout<<"Done\n";
-        return 0; //TWO: Once it reaches sum(0), it then comes back to complete sum(..x)
+        return 0; //TWO: Once it reaches sum(0), returns 0 which will then be used by sum(1..10)
     }
 }
 
