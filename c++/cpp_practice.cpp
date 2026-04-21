@@ -13,6 +13,7 @@ int getValue(char c){ //FOR SELF TEST 5
     if(c == 'C'){return 100;}
     if(c == 'D'){return 500;}
     if(c == 'M'){return 1000;}
+    return 0;
 }
 
 int main(){
@@ -284,6 +285,24 @@ int main(){
     cout<<"The decimal equivalent of "<<input<<" is: "<<convertedNum;
     */
 
+    //SELF TEST 6: Longest Common Prefix ("Flower","Flow","Flight")
+    string strs[] = {"Flower","Flow","Flight"};
+    string cpf, temp;
+    int n = 0;
+
+    for(int i = 1; i < strs->length(); i++){
+        for(int j = 0; j < strs[i].length(); j++){
+            if(strs[0][j] == strs[i][j]){
+                temp[n] == strs[0][j];
+            }
+            else{
+                continue;
+            }
+        }
+        cpf = temp;
+    }
+
+    cout<<"The common prefix of these words are: ";
     
     return 0;
 }
