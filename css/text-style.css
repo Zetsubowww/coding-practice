@@ -1,0 +1,91 @@
+/*p{} sets a default style for any paragraphs in the document. 
+  However when a more specific .classNameParagraph is present, it will follow
+  whatever it is inside that class.
+  */
+p{
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*YOUTUBE EXAMPLE*/
+.video-title{
+    font-size: 18px;/*dictates the font size of a text*/
+    font-weight: bold;/*specifies the weight of a text*/
+    text-align: left;/*aligns the text left, center, or right*/
+    width: 300px;
+    line-height: 24px;/*this is the equivalent of line spacing in word or gdocs*/
+}
+
+.video-stats{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 5px;
+}
+
+.video-author{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 15px;
+}
+
+.video-desc{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 15px;
+    line-height: 20px;
+    width: 275px;
+}
+
+/*APPLE EXAMPLE*/
+.apple-example{
+    margin-top: 50px;
+}
+.advertisement{
+    text-align: center;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    padding: 18px;
+}
+
+.shop-link{
+    cursor: pointer;
+}
+
+.shop-link:hover{
+    text-decoration: underline;
+}
+
+.text-elements{
+    margin-top: 50px;
+}
+
+.advertisement-copy{
+    text-align: center;
+}
+
+/*CHALLENGE EXERCISE*/
+.challenge{
+    margin-top: 50px;
+}
+
+.value{
+    font-size: 20px;
+}
+
+.usd{
+    font-size: small;
+    color: rgb(96, 96, 96);
+}
+
+.today{
+    color: rgb(0, 163, 0);
+}
+
+.after{
+    color: rgb(96, 96, 96);
+}
+
+.after-stock{
+    color: rgb(227, 65, 64);
+}

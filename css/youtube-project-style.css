@@ -1,0 +1,18 @@
+.thumbnail{
+    width: 300px; /*when an image's width is set, its height is also change to maintain its dimenstions*/;
+    /*
+    height: 300px; when an image's height is set that's when the image distorts
+    object-fit: contain; this tells whether to contain(maintain the image's size in a specific W x H) or cover(stretch the image to fully cover the given W x H)
+    object-position: top; when given a W x H, this changes the image's position in that area. 
+    border-width: 2px; create a border to show the area of the img element
+    border-style: solid;
+    border-color: red;
+    */
+
+
+}
+
+.search-bar{
+    font-size: 20px;
+    margin-left: 10px;
+}

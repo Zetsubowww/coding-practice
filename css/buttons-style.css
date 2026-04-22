@@ -1,0 +1,138 @@
+/*-------------STYLING PRACTICE-------------*/
+.styling-practice{
+    margin-bottom: 20px;
+}
+
+
+/*SUBSCRIBE BUTTON*/
+.sub-button{ /*because the sub button element has been named "sub-button". using .sub-button will indicates this block of code will only style the sub button*/
+    background-color: rgb(201, 0, 0); /*background-color: used for changing the background color of the element*/
+    color: white; /*color: used for changing the color of the text in the element*/
+    border: none; /*border: none; buttons by default come with borders as its design, using "none" removes the border*/
+    height: 40px; /*height: dictates the height of the element*/
+    width: 100px; /*width: dictates the width of the element*/
+    border-radius: 2px; /*borders are usually squares, adding a radius makes the corners of the element curved*/
+    cursor: pointer; /*this action replaces the cursor into a pointing hand when being hovered over the element*/
+    margin-right: 10px; /*margin: the space outside of an element*/
+    transition: opacity 0.15s; /*transition: used to smoothen the change happening in the element (in this case change of opacity)*/
+}
+
+.sub-button:hover{ /*.sub-button:hover | this block indicates what will happen to the element when hovered over by the cursor*/
+    opacity: 0.7; /*upon hovering, the opacity of the button changes to 0.7 (opacity ranges from 1-0, 1 being solid, 0 transparent)*/
+}
+
+.sub-button:active{ /*.sub-button:active | indicates what will happen to the element when clicked*/
+    opacity: 0.5; /*further changes the opacity from 0.7 to 0.5 making it more opaque*/
+}
+
+/*JOIN BUTTON*/
+.join-button{
+    height: 40px;
+    width: 60px;
+    color: rgb(6, 95, 212);
+    background-color: white;
+    border-color: rgb(6, 95, 212);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1.5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover{
+    background-color: rgb(6, 95, 212);
+    color: white;
+}
+
+.join-button:active{
+     opacity: 0.8;
+}
+
+/*TWEET BUTTON*/
+.tweet-button{
+    height: 40px;
+    width: 80px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 155, 240);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: box-shadow 0.1s;
+            
+}
+
+.tweet-button:hover{
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/*-------------SPACING PRACTICE-------------*/
+
+/*SUBSCRIBE BUTTON*/
+.sub-button-two{
+    background-color: rgb(201, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 12px 11.5px; /*padding: space between the border of the element and its content (this case, text). 12px for top and bottom, 11.5px for right and left*/
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+
+.sub-button-two:hover{
+    opacity: 0.7;
+}
+
+.sub-button-two:active{
+    opacity: 0.5;
+}
+
+/*JOIN BUTTON*/
+.join-button-two{
+    padding: 11px 13.7px;
+    color: rgb(6, 95, 212);
+    background-color: white;
+    border-color: rgb(6, 95, 212);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1.5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.15s, color 0.15s;
+    vertical-align: top;
+}
+
+.join-button-two:hover{
+    background-color: rgb(6, 95, 212);
+    color: white;
+}
+
+.join-button-two:active{
+    opacity: 0.8;
+}
+
+/*TWEET BUTTON*/
+.tweet-button-two{
+    height: 40px;
+    width: 80px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 155, 240);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: box-shadow 0.1s;
+    vertical-align: top;
+}
+
+.tweet-button-two:hover{
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+}

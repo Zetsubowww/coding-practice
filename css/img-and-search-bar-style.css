@@ -1,0 +1,63 @@
+div{
+    font-family: Arial;
+}
+/*TWITTER TEXT BOX*/
+.profile-pic{
+    width: 40px;
+    height: 40px;
+    object-position: left;
+    object-fit: cover;
+    border-radius: 360px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.whats-happening{
+    border: none;
+}
+
+.tweet{
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 155, 240);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+/*LINKEDIN SIGN UP*/
+.linkedin{
+    margin-top: 50px;
+}
+
+.email{
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+.linkedin-input{
+    width: 250px;
+}
+
+.byClicking{
+    width: 260px;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(96, 96, 96);
+}
+
+.agree{
+    padding: 10px 95px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 120, 221);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+
+}
