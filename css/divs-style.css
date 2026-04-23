@@ -31,7 +31,7 @@ p{
     align-items: center;
 }
 .pet-profile{
-    box-shadow: -2px 1px 15px 5px rgba(0, 0, 0, 0.20);
+    box-shadow: 1px 0px 10px 5px rgba(0, 0, 0, 0.14); /*x offset, y offset, blur, spread, rgba(0, 0, 0, 0.14)*/
     display: inline-block;
     width: 250px;
     height: 375px;
