@@ -7,22 +7,40 @@
     <title>Youtube Project</title>
 </head>
 <body>
-    <img class="thumbnail" src="/css/images/youtube-project/thumbnail-1.webp">
     <input class="search-bar" type="text" placeholder="Search">
     <!--
     there are three types of elements in HTML:
-    block elements - takes up the entire line of a website
-    inline-block element - only takes up as much space as needed
-    
+    block elements - takes up the entire line in their container(<p>, <div>)
+    inline-block element - only takes up as much space as needed (<img>, <input>)
+    inline element - appear within a line of text (<strong>)
     -->
-    <p class="video-title">
-        Talking Tech and AI with Google CEO Sundar Pichai!
-    </p>
-    <p>
-        Marques Brownlee
-    </p>
-    <p>
-        3.4M views &#183; 6 months ago
-    </p>
+    
+
+    <div class="video-preview"> <!--divs are meant to be containers-->
+        <img class="thumbnail" src="/css/images/youtube-project/thumbnail-1.webp">
+        <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+        <p class="video-author">
+            Marques Brownlee
+        </p>
+        <p class="video-stats">
+            3.4M views &#183; 6 months ago
+        </p>
+    </div>
+
+    <div class="video-preview"> <!--divs are meant to be containers-->
+        <img class="thumbnail" src="/css/images/youtube-project/thumbnail-2.webp">
+        <p class="video-title">
+            Try Not To Laugh Challenge #9
+        </p>
+        <p class="video-author">
+            Markiplier
+        </p>
+        <p class="video-stats">
+            19M views &#183; 4 years ago
+        </p>
+    </div>
+
 </body>
 </html>
